@@ -1,0 +1,25 @@
+torch>=1.12.0
+pandas>=1.3.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+imbalanced-learn>=0.9.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-1.12%2B-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+![PATE](https://img.shields.io/badge/PATE-Moments%20Accountant-orange)
+![Dataset](https://img.shields.io/badge/Dataset-RT--IoT2022-lightgrey)
+
+
+# PATE on RT-IoT2022
+
+Reproducible **Private Aggregation of Teacher Ensembles (PATE)** experiments for multi-class intrusion detection using the RT-IoT2022 dataset.
+
+This repository evaluates **15 teacher–student architectural configurations** with the classic Laplace noisy-max mechanism and a full **moments accountant** (data-dependent + data-independent privacy analysis).
+
+## Quick Start
+
+```bash
+pip install -r requirements.txt
